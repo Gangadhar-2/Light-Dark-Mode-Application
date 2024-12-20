@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.bg {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card-light {
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  padding: 10px;
+  width: 50%;
+  height: 200px;
+  font-family: 'Roboto';
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-dark {
+  background-color: black;
+  padding: 10px;
+  width: 50%;
+  height: 200px;
+  font-family: 'Roboto';
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  color: white;
+}
+
+.btn {
+  color: black;
+  background-color: #ffffff;
+  width: 115px;
+  height: 42px;
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+.dark {
+  color: white;
+}
+.light {
+  color: black;
+}
